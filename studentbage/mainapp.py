@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import ttk
 import webbrowser
-
 firstwin = Tk()
 firstwin.geometry("650x350")
 firstwin.title("حقيبة الطالب")

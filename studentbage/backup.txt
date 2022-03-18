@@ -1,0 +1,63 @@
+
+
+app = Tk()
+app.geometry("650x430")
+app.resizable(False, False)
+
+lab = Label(app, text="الرابع الاعدادي").place(x=50, y=10)
+
+
+def nm():
+    pass
+    # webbrowser.open("google.com")
+
+
+def two():
+    root = Tk()
+    root.geometry("650x430")
+    root.resizable(False, False)
+    lm = Label(root, text="main").pack()
+    lb2 = Label(app, text='السادس الاعدادي').place(x=500, y=10)
+    btn1 = Button(root, text="التربية الاسلامية",
+                  command=nm).place(x=500, y=50)
+    btn1 = Button(root, text="التربية الاسلامية",
+                  command=nm).place(x=500, y=100)
+    btn1 = Button(root, text="التربية الاسلامية",
+                  command=nm).place(x=500, y=150)
+    btn1 = Button(root, text="التربية الاسلامية",
+                  command=nm).place(x=500, y=200)
+    btn1 = Button(root, text="التربية الاسلامية",
+                  command=nm).place(x=500, y=250)
+    btn1 = Button(root, text="التربية الاسلامية",
+                  command=nm).place(x=500, y=300)
+    btn1 = Button(root, text="التربية الاسلامية",
+                  command=nm).place(x=500, y=350)
+
+
+btn1 = Button(app, text="التربية الاسلامية", command=two).place(x=50, y=50)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=50, y=100)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=50, y=150)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=50, y=200)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=50, y=250)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=50, y=300)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=50, y=350)
+lb3 = Label(app, text="الخامس الاعدادي").place(x=250, y=10)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=250, y=50)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=250, y=100)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=250, y=150)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=250, y=200)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=250, y=250)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=250, y=300)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=250, y=350)
+lb2 = Label(app, text='السادس الاعدادي').place(x=500, y=10)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=500, y=50)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=500, y=100)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=500, y=150)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=500, y=200)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=500, y=250)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=500, y=300)
+btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x=500, y=350)
+
+
+app.mainloop()
+root.mainloop()

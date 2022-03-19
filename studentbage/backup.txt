@@ -61,3 +61,103 @@ btn1 = Button(app, text="التربية الاسلامية", command=nm).place(x
 
 app.mainloop()
 root.mainloop()
+
+
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+smlab = Label(sixwin, text='مشاهدة الدروس الالكترونية للمرحلة الاعدادية ',  bg='#151D3B',
+                  fg='white', font=("Tajawl", 14)).place(x=130, y=9)
+
+    slab01 = Label(sixwin, text='الرابع الاعدادي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13)).place(x=430, y=45)
+
+    swbtn02 = Button(sixwin, command=lambda: webbrowser.open(''), text="التربية الاسلامية",
+                     bg='#F0A500').place(x=430, y=85)
+
+    swbtn03 = Button(sixwin, command=lambda: webbrowser.open(''), text="   اللغة العربية   ",
+                     bg='#F0A500').place(x=430, y=125)
+
+    swbtn04 = Button(sixwin, command=lambda: webbrowser.open(''), text="  اللغة الانكليزية",
+                     bg='#F0A500').place(x=430, y=165)
+
+    swbtn05 = Button(sixwin, command=lambda: webbrowser.open(''), text="    الرياضيات     ",
+                     bg='#F0A500').place(x=430, y=205)
+
+    swbtn06 = Button(sixwin, command=lambda: webbrowser.open(''), text="   الاجتماعيات   ",
+                     bg='#F0A500').place(x=430, y=245)
+
+    swbtn07 = Button(sixwin, command=lambda: webbrowser.open(''), text="        العلوم        ",
+                     bg='#F0A500').place(x=430, y=285)
+
+    swbtn08 = Button(sixwin, command=lambda: webbrowser.open(''), text="     الحاسوب      ",
+                     bg='#F0A500').place(x=430, y=325)
+
+    # swbtn043 = Button(sixwin, command=lambda: webbrowser.open(''), text="  نشاط انكليزي  ",
+    #                  bg='#F0A500').place(x=430, y=365)
+
+# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ دول تحميل كتب المرحلة المتوسطة
+
+
+# ^^^^^^^^^^^^^^^^الثاني المتوسط ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    sfrlabel = Label(sixwin, text="الخامس الاعدادي", bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13)).place(x=230, y=45)
+
+    swbtn02 = Button(sixwin, command=lambda: webbrowser.open(''), text="التربية الاسلامية",
+                     bg='#F0A500').place(x=230, y=85)
+
+    swbtn03 = Button(sixwin, command=lambda: webbrowser.open(''), text="   اللغة العربية   ",
+                     bg='#F0A500').place(x=230, y=125)
+
+    swbtn04 = Button(sixwin, command=lambda: webbrowser.open(''), text="  اللغة الانكليزية",
+                     bg='#F0A500').place(x=230, y=165)
+
+    swbtn05 = Button(sixwin, command=lambda: webbrowser.open(''), text="    الرياضيات     ",
+                     bg='#F0A500').place(x=230, y=205)
+
+    swbtn06 = Button(sixwin, command=lambda: webbrowser.open(''), text="   الاجتماعيات   ",
+                     bg='#F0A500').place(x=230, y=245)
+
+    swbtn07 = Button(sixwin, command=lambda: webbrowser.open(''), text="        العلوم        ",
+                     bg='#F0A500').place(x=230, y=285)
+
+    swbtn08 = Button(sixwin, command=lambda: webbrowser.open(''), text="     الحاسوب      ",
+                     bg='#F0A500').place(x=230, y=325)
+
+    # swbtn032 = Button(sixwin, command=lambda: webbrowser.open(''), text="  نشاط انكليزي  ",
+    #                  bg='#F0A500').place(x=230, y=365)
+
+
+# *******************الثاني المتوسط
+
+
+# **********************الثالث المتوسط
+    slab01 = Label(sixwin, text='السادس الاعدادي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13)).place(x=60, y=45)
+
+    swbtn02 = Button(sixwin, command=lambda: webbrowser.open(''), text="التربية الاسلامية",
+                     bg='#F0A500').place(x=60, y=85)
+
+    swbtn03 = Button(sixwin, command=lambda: webbrowser.open(''), text="   اللغة العربية   ",
+                     bg='#F0A500').place(x=60, y=125)
+
+    swbtn04 = Button(sixwin, command=lambda: webbrowser.open(''), text="  اللغة الانكليزية",
+                     bg='#F0A500').place(x=60, y=165)
+
+    swbtn05 = Button(sixwin, command=lambda: webbrowser.open(''), text="    الرياضيات     ",
+                     bg='#F0A500').place(x=60, y=205)
+
+    swbtn06 = Button(sixwin, command=lambda: webbrowser.open(''), text="        الاحياء      ",
+                     bg='#F0A500').place(x=60, y=245)
+
+    swbtn07 = Button(sixwin, command=lambda: webbrowser.open(''), text="      الكيمياء       ",
+                     bg='#F0A500').place(x=60, y=285)
+
+    swbtn08 = Button(sixwin, command=lambda: webbrowser.open(''), text="      الفيزياء       ",
+                     bg='#F0A500').place(x=60, y=325)
+
+    swbtn08 = Button(sixwin, command=lambda: webbrowser.open(''), text="    الاجتماعيات   ",
+                     bg='#F0A500').place(x=60, y=365)
+

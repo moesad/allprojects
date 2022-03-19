@@ -1,0 +1,33 @@
+1- import sqllite3
+
+
+2 For create Table :: 
+
+3- *name=sqllite3.connect("*name.db")
+
+4-To create table first time ::
+*name.execute("create table '*name'(*table data)")
+
+5- to check table exists or not::
+*name.execute("create table if  not exists '*name'(*table data)")
+
+
+*name.close()
+
+-------------------------------------------
+
+·«÷«›… ÃœÊ· »ÿ—Ìﬁ… ﬂ«—“—
+
+*name = *db name.cursor()
+
+*name.execute("‰›” «·Ì ›Êﬂ" )
+-------------------------------------------
+insert values by for loob:
+
+for key, user in enumerate(*list name):
+       cr.execute(f"insert into users(user_id, name) values({key +1}, '{user}')")
+--------------------------------------------
+TO GET DATA FROM DATABACE::
+
+cr.execute("select * from *name")
+pritn(cr.fetchall())

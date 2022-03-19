@@ -1,0 +1,19 @@
+from tkinter import *
+from tkinter import ttk
+
+def selection(event):
+    # Three methods here all get the same value.
+    print(event.widget.get())
+    print(combo.get())
+    print(combo_var.get())
+
+root = Tk()
+
+values = ['USA', 'CANADA', 'JAPAN', 'KOREA', 'CHINA']
+combo_var = StringVar()
+
+combo = ttk.Combobox(root, values=values, textvariable=combo_var)
+combo.pack()
+combo.bind("<<ComboboxSelected>>",  selection)
+
+root.mainloop()

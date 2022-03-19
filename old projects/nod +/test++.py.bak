@@ -1,0 +1,7 @@
+def missing_letters(string):
+    missing = []
+    for key in alphabet:
+        if key not in string:
+            missing.append(key)
+    return ''.join(missing) or None
+print(missiٍٍng_letters("aseert"))

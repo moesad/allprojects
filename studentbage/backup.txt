@@ -161,3 +161,28 @@ smlab = Label(sixwin, text='مشاهدة الدروس الالكترونية ل�
     swbtn08 = Button(sixwin, command=lambda: webbrowser.open(''), text="    الاجتماعيات   ",
                      bg='#F0A500').place(x=60, y=365)
 
+--------------------------------------------------------
+
+
+    # slab = Label(sixwin, text="الرابع الاعدادي",  fg='white',
+    #              bg='#151D3B', font=("Tajawl", 15)).place(x=390, y=90)
+
+    # sbtn1 = Button(sixwin, text="     علمي     ",
+    #                bg='#F0A500').place(x=420, y=140)
+
+    # sbtn2 = Button(sixwin, text="     ادبي     ",
+    #                bg='#F0A500').place(x=420, y=180)
+
+    # slab = Label(sixwin, text="الخامس الاعدادي",  fg='white',
+    #              bg='#151D3B', font=("Tajawl", 15)).place(x=210, y=90)
+
+    # sbtn1 = Button(sixwin, text="  احيائي   ",
+    #                bg='#F0A500').place(x=240, y=140)
+    # sbtn4 = Button(sixwin, text=" تطبيقي ", bg='#F0A500').place(x=240, y=180)
+    # sbtn4 = Button(sixwin, text="   ادبي   ", bg='#F0A500').place(x=240, y=220)
+
+    # slab3 = Label(sixwin, text="السادس الاعدادي",  fg='white',
+    #   bg='#151D3B', font=("Tajawl", 15)).place(x=50, y=90)
+    # sbtn1 = Button(sixwin, text="  احيائي  ", bg='#F0A500').place(x=80, y=140)
+    # sbtn4 = Button(sixwin, text=" تطبيقي ", bg='#F0A500').place(x=80, y=180)
+    # sbtn4 = Button(sixwin, text="   ادبي   ", bg='#F0A500').place(x=80, y=220)

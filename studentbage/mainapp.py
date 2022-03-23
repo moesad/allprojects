@@ -2,8 +2,6 @@ from tkinter import *
 from tkinter import ttk
 import webbrowser
 from tkinter import filedialog
-from pytube import YouTube
-
 firstwin = Tk()
 firstwin.geometry("650x400")
 firstwin.title("حقيبة الطالب V1.2")
@@ -865,6 +863,233 @@ def fthwin():  # الادبي
 # ------------------------------------------------------------
 
 
+# -------------- كتب المرحلة الاعدادية --------------------------------------------
+
+# الرابع العلمي
+def sithwin():
+    sithwin = Tk()
+    sithwin.geometry('450x270')
+    sithwin.configure(background='#151D3B')
+    mlabs = Label(sithwin, text='اختر فرعك الدراسي', fg='#F0A500',  bg='#151D3B',
+                  font=("Tajawl", 19, 'bold')).place(x=140, y=25)
+
+# ------------------------------------------------------------------------------
+
+    malb = Label(sithwin, text='الرابع الاعدادي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 15, 'bold')).place(x=320, y=90)
+
+    fsbtn = Button(sithwin, command=sethwin, text='   علمي   ',
+                   bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=335, y=140)
+
+    fsbtn = Button(sithwin, command=nithwin, text='   ادبي    ',
+                   bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=335, y=190)
+
+# -----------------------------------------------------------------------------------------
+
+    mal2 = Label(sithwin, text='الخامس الاعدادي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 15, 'bold')).place(x=170, y=90)
+
+    fsbtn = Button(sithwin, command=twwin,  text='   احيائي   ',
+                   bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=190, y=140)
+
+    fsbtn2 = Button(sithwin, command=tonwin, text='   تطبيقي  ',
+                    bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=190, y=180)
+
+    fsbtn3 = Button(sithwin, command=ttwwin, text='    ادبي    ',
+                    bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=190, y=220)
+
+
+# ----------------------------------------------------------------------------------------
+    mal2 = Label(sithwin, text='السادس الاعدادي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 15, 'bold')).place(x=25, y=90)
+
+    fsbtn = Button(sithwin, text='   احيائي   ',
+                   bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=45, y=140)
+
+    fsbtn2 = Button(sithwin, text='   تطبيقي  ',
+                    bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=45, y=180)
+
+    fsbtn3 = Button(sithwin, text='    ادبي    ',
+                    bg='#F0A500', fg='black', font=("Tajawl", 13, 'bold')).place(x=45, y=220)
+
+# ----------------------------------------------------------------------------------------
+
+
+def sethwin():  # العلمي
+    sethwin = Tk()
+    sethwin.geometry('200x440')
+    sethwin.configure(background='#151D3B')
+    mlab = Label(sethwin, text='كتب الرابع العلمي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=40, y=30)
+
+    b1 = Button(sethwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1b-WEUZcDu3zNBjhlPkPF8hRToRzkOS0M/view'), text="التربية الاسلامية",
+                bg='#F0A500').place(x=60, y=85)
+
+    b2 = Button(sethwin, command=lambda: webbrowser.open('http://manahj.edu.iq/upload/upfile/ar/1155.pdf'), text="   اللغة العربية   ",
+                bg='#F0A500').place(x=60, y=125)
+
+    b3 = Button(sethwin, command=lambda: webbrowser.open('https://drive.google.com/u/0/uc?id=1C3gjwWuQ_7kSbJQ7vQzQV44WZNWmAYXJ&export=download'), text="  اللغة الانكليزية",
+                bg='#F0A500').place(x=60, y=165)
+
+    b4 = Button(sethwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1RJ8eUhBsl5ggY-f3wcbnobhwyoZvFTJ_/view'), text="    الرياضيات     ",
+                bg='#F0A500').place(x=60, y=205)
+
+    b5 = Button(sethwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1E9fn5Gi_xTbyqNBaNhYMKmB7Eg1p_wjk/view'), text="        الاحياء      ",
+                bg='#F0A500').place(x=60, y=245)
+
+    b6 = Button(sethwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1055DilEfBReuNgy2dlQ_sqFyRK4EmqDh/view'), text="      الكيمياء       ",
+                bg='#F0A500').place(x=60, y=285)
+
+    b7 = Button(sethwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1JCj4BMiz8Jj5DK-4Asq5NrYR_afA23hu/view'), text="      الفيزياء       ",
+                bg='#F0A500').place(x=60, y=325)
+
+    b9 = Button(sethwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1Qq0ZPFpF-uD1cST7e1JnXjdpYsKMdnzg/view'), text="      الحاسوب     ",
+                bg='#F0A500').place(x=60, y=365)
+
+# ========================================================================================
+
+
+def nithwin():  # الادبي
+    nithwin = Tk()
+    nithwin.geometry('200x440')
+    nithwin.configure(background='#151D3B')
+
+    mlab1 = Label(nithwin, text='كتب الرابع الادبي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=40, y=30)
+
+    b10 = Button(nithwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1ZcxXas2FgLy_yVIcLUuIkzf9GU3X4VPB/view?usp=drivesdk'), text="التربية الاسلامية",
+                 bg='#F0A500').place(x=60, y=85)
+
+    b20 = Button(nithwin, command=lambda: webbrowser.open('http://manahj.edu.iq/upload/upfile/ar/1155.pdf'), text="   اللغة العربية   ",
+                 bg='#F0A500').place(x=60, y=125)
+
+    b30 = Button(nithwin, command=lambda: webbrowser.open('https://drive.google.com/u/0/uc?id=1C3gjwWuQ_7kSbJQ7vQzQV44WZNWmAYXJ&export=download'), text="  اللغة الانكليزية",
+                 bg='#F0A500').place(x=60, y=165)
+
+    b40 = Button(nithwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1-Jc_XI_O9EpGukuCW_uYpQVkAZj8K72F/view?usp=drivesdk'), text="    الرياضيات     ",
+                 bg='#F0A500').place(x=60, y=205)
+
+    b50 = Button(nithwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1ZPVRZRxnJHR5yfJrifrJ-Q8SVRCPFvfy/view?usp=drivesdk'), text="        التاريخ      ",
+                 bg='#F0A500').place(x=60, y=245)
+
+    b60 = Button(nithwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1tQULmeUsyXXDSLq6ICIEov_L-_zJEFjA/view?usp=drivesdk'), text="    الجغرافيه       ",
+                 bg='#F0A500').place(x=60, y=285)
+
+    b70 = Button(nithwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1p0O48K1R7eXjLfhUDGpF0pEcrW5cCevP/view?usp=drivesdk'), text="  علم الاجتماع    ",
+                 bg='#F0A500').place(x=60, y=325)
+
+    b80 = Button(nithwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1Qq0ZPFpF-uD1cST7e1JnXjdpYsKMdnzg/view'), text="      الحاسوب     ",
+                 bg='#F0A500').place(x=60, y=365)
+
+# =============================================================================================
+
+
+def twwin():  # الاحيائي
+    twwin = Tk()
+    twwin.geometry('200x440')
+    twwin.configure(background='#151D3B')
+
+    mlab10 = Label(twwin, text='كتب الخامس الاحيائي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=40, y=30)
+
+    b100 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1Atz-1jdYt9NZVy2B_TuuCvaUrOXC5vJv/view'), text="التربية الاسلامية",
+                  bg='#F0A500').place(x=60, y=85)
+
+    b200 = Button(twwin, command=lambda: webbrowser.open('https://www.amsebehm2017.com/2021/10/2022-pdf_19.html'), text="   اللغة العربية   ",
+                  bg='#F0A500').place(x=60, y=125)
+
+    b300 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1m-zzBTNrg2rNuCrxUdQD_azatPqvqrBw/view'), text="  اللغة الانكليزية",
+                  bg='#F0A500').place(x=60, y=165)
+
+    b400 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1Beh0R-FXTNZjLygjjonQoyfq_ApuTXZD/view'), text="    الرياضيات     ",
+                  bg='#F0A500').place(x=60, y=205)
+
+    b500 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1bZZbuUn6Dw7zTVGjDx3pPv7pAiEa4mVL/view'), text="        الاحياء      ",
+                  bg='#F0A500').place(x=60, y=245)
+
+    b600 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/18y6bdYYD1ucBPXJSifHoL4owb5h-7wsO/view'), text="      الكيمياء       ",
+                  bg='#F0A500').place(x=60, y=285)
+
+    b700 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/u/1/uc?id=1Q7ePIjt_eYyjHjWeqx2X7OG5kTtS5Boo&export=download'), text="      الفيزياء       ",
+                  bg='#F0A500').place(x=60, y=325)
+
+    b8000 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1wJbL27LVTz7ETLtcZ32I1g-F-f18uCFw/view'), text="  نشاط انكليزي ",
+                   bg='#F0A500').place(x=60, y=365)
+
+    b800 = Button(twwin, command=lambda: webbrowser.open('https://drive.google.com/file/d/1BT3GQ0ZYydJVg-ZENk4yI-U-Fl_nXmJz/view'), text="      الحاسوب     ",
+                  bg='#F0A500').place(x=60, y=405)
+
+# =================================================================================
+
+
+def tonwin():  # التطبيقي
+    tonwin = Tk()
+    tonwin.geometry('200x440')
+    tonwin.configure(background='#151D3B')
+
+    mlab10 = Label(tonwin, text='دروس الخامس التطبيقي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=40, y=30)
+
+    b100 = Button(tonwin, command=lambda: webbrowser.open(''), text="التربية الاسلامية",
+                  bg='#F0A500').place(x=60, y=85)
+
+    b200 = Button(tonwin, command=lambda: webbrowser.open(''), text="   اللغة العربية   ",
+                  bg='#F0A500').place(x=60, y=125)
+
+    b300 = Button(tonwin, command=lambda: webbrowser.open(''), text="  اللغة الانكليزية",
+                  bg='#F0A500').place(x=60, y=165)
+
+    b400 = Button(tonwin, command=lambda: webbrowser.open(''), text="    الرياضيات     ",
+                  bg='#F0A500').place(x=60, y=205)
+
+    b500 = Button(tonwin, command=lambda: webbrowser.open(''), text="        الاحياء      ",
+                  bg='#F0A500').place(x=60, y=245)
+
+    b600 = Button(tonwin, command=lambda: webbrowser.open(''), text="      الكيمياء       ",
+                  bg='#F0A500').place(x=60, y=285)
+
+    b700 = Button(tonwin, command=lambda: webbrowser.open(''), text="      الفيزياء       ",
+                  bg='#F0A500').place(x=60, y=325)
+
+    b800 = Button(tonwin, command=lambda: webbrowser.open(''), text="    الاجتماعيات   ",
+                  bg='#F0A500').place(x=60, y=365)
+
+# ===============================================================================
+
+
+def ttwwin():  # الادبي
+    ttwwin = Tk()
+    ttwwin.geometry('200x440')
+    ttwwin.configure(background='#151D3B')
+
+    mlab109 = Label(ttwwin, text='كتب الخامس الادبي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=40, y=30)
+
+    b1008 = Button(ttwwin, command=lambda: webbrowser.open(''), text="التربية الاسلامية",
+                   bg='#F0A500').place(x=60, y=85)
+
+    b2007 = Button(ttwwin, command=lambda: webbrowser.open(''), text="   اللغة العربية   ",
+                   bg='#F0A500').place(x=60, y=125)
+
+    b3006 = Button(ttwwin, command=lambda: webbrowser.open(''), text="  اللغة الانكليزية",
+                   bg='#F0A500').place(x=60, y=165)
+
+    b4005 = Button(ttwwin, command=lambda: webbrowser.open(''), text="    الرياضيات     ",
+                   bg='#F0A500').place(x=60, y=205)
+
+    b5004 = Button(ttwwin, command=lambda: webbrowser.open(''), text="        الاحياء      ",
+                   bg='#F0A500').place(x=60, y=245)
+
+    b6003 = Button(ttwwin, command=lambda: webbrowser.open(''), text="      الكيمياء       ",
+                   bg='#F0A500').place(x=60, y=285)
+
+    b7002 = Button(ttwwin, command=lambda: webbrowser.open(''), text="      الفيزياء       ",
+                   bg='#F0A500').place(x=60, y=325)
+
+    b8001 = Button(ttwwin, command=lambda: webbrowser.open(''), text="    الاجتماعيات   ",
+                   bg='#F0A500').place(x=60, y=365)
+
+
 # ****************************************** الشاشه الاولى *********************************
 # ليبل الاول
 lab1 = Label(firstwin, text="مرحبا بك في تطبيق حقيبة الطالب", bg='#151D3B',  fg='#F0A500', font=("Tajawl", 20, 'bold')).place(
@@ -897,7 +1122,7 @@ lab4 = Label(firstwin, bg='#151D3B',  fg='white', font=(
     "Tajawl", 18, 'bold'),  text="المرحلة الاعدادية").place(x=350, y=280)
 
 
-btn1 = Button(firstwin, text="     تحميل الكتب     ",
+btn1 = Button(firstwin, command=sithwin, text="     تحميل الكتب     ",
               bg='#F0A500').place(x=40, y=280)
 btn1 = Button(firstwin, command=sixwin, text="     مشاهدة الدروس الالكترونية     ", fg='white', bg='#ab1111').place(
     x=150, y=280)

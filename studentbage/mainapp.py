@@ -3,7 +3,7 @@ from tkinter import ttk
 import webbrowser
 from tkinter import filedialog
 firstwin = Tk()
-firstwin.geometry("650x400")
+firstwin.geometry("650x480")
 firstwin.title("حقيبة الطالب V1.2")
 # firstwin.resizable(False, False)
 firstwin.configure(background='#151D3B')
@@ -1241,21 +1241,25 @@ btn1 = Button(firstwin, command=forwin, text="     مشاهدة الدروس ا�
 
 
 lab4 = Label(firstwin, bg='#151D3B',  fg='white', font=(
-    "Tajawl", 18, 'bold'),  text="المرحلة الاعدادية").place(x=350, y=280)
-
-
+    "Tajawl", 18, 'bold'),  text="المرحلة الاعدادية").place(x=360, y=280)
 btn1 = Button(firstwin, command=sithwin, text="     تحميل الكتب     ",
               bg='#F0A500').place(x=40, y=280)
 btn1 = Button(firstwin, command=sixwin, text="     مشاهدة الدروس الالكترونية     ", fg='white', bg='#ab1111').place(
     x=150, y=280)
+
+lab41 = Label(firstwin, bg='#151D3B',  fg='white', font=(
+    "Tajawl", 18, 'bold'), text="مدارس المتميزين").place(x=360, y=352)
+btn11 = Button(firstwin, text="                اضغط هنا لتحميل كتب مدارس المتميزين              ",
+               bg='#F0A500').place(x=40, y=360)
 # *********************************************************************************************
 
 # ================================= دالة التحميل =======================================
 
-# ==========================================
+# # ==========================================
 sg = Label(firstwin, bg='#151D3B',  fg='white', font=(
-    "Tajawl", 18, 'bold'),  text="تحميل الدروس").place(x=360, y=342)
-gg = Button(firstwin, command=lambda: webbrowser.open('https://loader.to/en85/1080p-video-downloader.html'), text="                اضغط هنا لتحميل الدروس الالكترونية                ", fg='white', bg='#ab1111').place(
-    x=45, y=350)
+    "Tajawl", 18, 'bold'),  text="   تحميل الدروس ").place(x=350, y=420)
+gg = Button(firstwin, command=lambda: webbrowser.open('https://loader.to/en85/1080p-video-downloader.html'), text="                   اضغط هنا لتحميل الدروس الالكترونية               ", fg='white', bg='#ab1111').place(
+    x=40, y=430)
+
 
 firstwin.mainloop()

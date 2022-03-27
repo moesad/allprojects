@@ -742,8 +742,8 @@ def elwin():  # التطبيقي
     b700 = Button(elwin, command=lambda: webbrowser.open('https://www.youtube.com/watch?v=5EP7EaESMR8'), text="      الفيزياء       ",
                   bg='#F0A500').place(x=60, y=365)
 
-    b800 = Button(tewin, command=lambda: webbrowser.open('https://www.youtube.com/watch?v=jATa4h8hGR8'), text="      الحاسوب     ",
-                  bg='#F0A500').place(x=60, y=405)
+    b8030 = Button(elwin, command=lambda: webbrowser.open('https://www.youtube.com/watch?v=jATa4h8hGR8'), text="      الحاسوب     ",
+                   bg='#F0A500').place(x=60, y=405)
 # -----------------------------------------------------------------
 
 
@@ -777,8 +777,8 @@ def tuwin():  # الادبي
     b7002 = Button(tuwin, command=lambda: webbrowser.open('https://www.youtube.com/watch?v=m1KJuqtksEk'), text="      الفلسفة       ",
                    bg='#F0A500').place(x=60, y=325)
 
-    b800 = Button(tewin, command=lambda: webbrowser.open('https://www.youtube.com/watch?v=jATa4h8hGR8'), text="      الحاسوب     ",
-                  bg='#F0A500').place(x=60, y=365)
+    b8200 = Button(tuwin, command=lambda: webbrowser.open('https://www.youtube.com/watch?v=jATa4h8hGR8'), text="      الحاسوب     ",
+                   bg='#F0A500').place(x=60, y=365)
 
 # --------------------------------------------------------------------------------------------------------
 

@@ -1387,7 +1387,7 @@ btn1 = Button(firstwin, command=secwind1, text="     مشاهدة الدروس �
 
 
 lab3 = Label(firstwin, bg='#151D3B',  fg='white', font=(
-    "Tajawl", 18, 'bold'),  text="المرحلة المتوسطة").place(x=350, y=200)
+    "Tajawl", 18, 'bold'),  text=":المرحلة المتوسطة").place(x=350, y=200)
 
 btn1 = Button(firstwin, command=fifwin, text="     تحميل الكتب     ",
               bg='#F0A500').place(x=40, y=200)
@@ -1396,14 +1396,14 @@ btn1 = Button(firstwin, command=forwin, text="     مشاهدة الدروس ا�
 
 
 lab4 = Label(firstwin, bg='#151D3B',  fg='white', font=(
-    "Tajawl", 18, 'bold'),  text="المرحلة الاعدادية").place(x=360, y=280)
+    "Tajawl", 18, 'bold'),  text=":المرحلة الاعدادية").place(x=360, y=280)
 btn1 = Button(firstwin, command=sithwin, text="     تحميل الكتب     ",
               bg='#F0A500').place(x=40, y=280)
 btn1 = Button(firstwin, command=sixwin, text="     مشاهدة الدروس الالكترونية     ", fg='white', bg='#ab1111').place(
     x=150, y=280)
 
 lab41 = Label(firstwin, bg='#151D3B',  fg='white', font=(
-    "Tajawl", 18, 'bold'), text="مدارس المتميزين").place(x=360, y=352)
+    "Tajawl", 18, 'bold'), text=":مدارس المتميزين").place(x=360, y=352)
 btn11 = Button(firstwin, command=mtmwin, text="                اضغط هنا لتحميل كتب مدارس المتميزين              ",
                bg='#F0A500').place(x=40, y=360)
 # *********************************************************************************************
@@ -1411,7 +1411,7 @@ btn11 = Button(firstwin, command=mtmwin, text="                اضغط هنا �
 # ================================= دالة التحميل =======================================
 
 sg = Label(firstwin, bg='#151D3B',  fg='white', font=(
-    "Tajawl", 18, 'bold'),  text="   تحميل الدروس ").place(x=350, y=420)
+    "Tajawl", 18, 'bold'),  text="   :تحميل الدروس ").place(x=350, y=420)
 gg = Button(firstwin, command=lambda: webbrowser.open('https://loader.to/en85/1080p-video-downloader.html'), text="                   اضغط هنا لتحميل الدروس الالكترونية               ", fg='white', bg='#ab1111').place(
     x=40, y=430)
 

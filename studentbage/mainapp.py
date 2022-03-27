@@ -159,6 +159,7 @@ def secwind1():
 def thrwin():
     thrwin = Tk()
     thrwin.geometry("480x600")
+    thrwin.title("تحميل كتب المرحلة الابتدائية")
     thrwin.configure(background='#151D3B')
     thrwin.resizable(False, False)
 
@@ -307,6 +308,8 @@ def thrwin():
 def forwin():
     forwin = Tk()
     forwin.geometry('550x420')
+    forwin.title("مشاهدة الدروس الالكترونية للمرحلة المتوسطة")
+
     forwin.configure(background='#151D3B')
     forwin.resizable(False, False)
 
@@ -411,6 +414,8 @@ def forwin():
 def fifwin():
     fifwin = Tk()
     fifwin.geometry('550x440')
+    fifwin.title("تحميل الكتب المدرسية للمرحلة المتوسطة")
+
     fifwin.configure(background='#151D3B')
     fifwin.resizable(False, False)
 
@@ -552,6 +557,7 @@ def fifwin():
 def sixwin():
     sixwin = Tk()
     sixwin.geometry('450x270')
+    sixwin.title("اختر فرعك الدراسي")
     sixwin.configure(background='#151D3B')
     sixwin.resizable(False, False)
 
@@ -603,6 +609,7 @@ def sixwin():
 def eiwin():  # العلمي
     eiwin = Tk()
     eiwin.geometry('200x440')
+    eiwin.title("دروس الرابع العلمي")
     eiwin.configure(background='#151D3B')
     eiwin.resizable(False, False)
 
@@ -639,6 +646,7 @@ def eiwin():  # العلمي
 def niwin():  # الادبي
     niwin = Tk()
     niwin.geometry('200x440')
+    niwin.title("دروس الرابع الادبي")
     niwin.configure(background='#151D3B')
     niwin.resizable(False, False)
 
@@ -676,6 +684,7 @@ def niwin():  # الادبي
 
 def tewin():  # الاحيائي
     tewin = Tk()
+    tewin.title("دروس الخامس الاحيائي")
     tewin.geometry('200x440')
     tewin.configure(background='#151D3B')
     tewin.resizable(False, False)
@@ -712,6 +721,7 @@ def tewin():  # الاحيائي
 def elwin():  # التطبيقي
     elwin = Tk()
     elwin.geometry('200x440')
+    elwin.title("دروس الخامس التطبيقي")
     elwin.configure(background='#151D3B')
     elwin.resizable(False, False)
 
@@ -750,6 +760,7 @@ def elwin():  # التطبيقي
 def tuwin():  # الادبي
     tuwin = Tk()
     tuwin.geometry('200x400')
+    tuwin.title("دروس الخامس الادبي")
     tuwin.configure(background='#151D3B')
     tuwin.resizable(False, False)
 
@@ -789,6 +800,7 @@ def thwin():  # الاحيائي
 
     thwin = Tk()
     thwin.geometry('200x440')
+    thwin.title("دروس السادس الاحيائي ")
     thwin.configure(background='#151D3B')
     thwin.resizable(False, False)
 
@@ -825,6 +837,7 @@ def ftwin():  # التطبيقي
 
     ftwin = Tk()
     ftwin.geometry('200x440')
+    ftwin.title("دروس السادس التطبيقي ")
     ftwin.configure(background='#151D3B')
     ftwin.resizable(False, False)
 
@@ -861,6 +874,7 @@ def fthwin():  # الادبي
 
     fthwin = Tk()
     fthwin.geometry('200x440')
+    fthwin.title("دروس السادس الادبي ")
     fthwin.configure(background='#151D3B')
     fthwin.resizable(False, False)
 
@@ -899,6 +913,7 @@ def fthwin():  # الادبي
 def sithwin():
     sithwin = Tk()
     sithwin.geometry('450x270')
+    sithwin.title("اختر فرعك الدراسي ")
     sithwin.configure(background='#151D3B')
     sithwin.resizable(False, False)
     mlabs = Label(sithwin, text='اختر فرعك الدراسي', fg='#F0A500',  bg='#151D3B',
@@ -949,6 +964,7 @@ def sithwin():
 def sethwin():  # العلمي
     sethwin = Tk()
     sethwin.geometry('200x440')
+    sethwin.title("كتب الرابع العلمي")
     sethwin.configure(background='#151D3B')
     sethwin.resizable(False, False)
     mlab = Label(sethwin, text='كتب الرابع العلمي', bg='#151D3B',  fg='white', font=(
@@ -984,6 +1000,7 @@ def sethwin():  # العلمي
 def nithwin():  # الادبي
     nithwin = Tk()
     nithwin.geometry('200x440')
+    nithwin.title("كتب الرابع الادبي")
     nithwin.configure(background='#151D3B')
     nithwin.resizable(False, False)
 
@@ -1020,6 +1037,7 @@ def nithwin():  # الادبي
 def twwin():  # الاحيائي
     twwin = Tk()
     twwin.geometry('200x440')
+    twwin.title("كتب الخامس الاحيائي")
     twwin.configure(background='#151D3B')
     twwin.resizable(False, False)
 
@@ -1059,6 +1077,7 @@ def twwin():  # الاحيائي
 def tonwin():  # التطبيقي
     tonwin = Tk()
     tonwin.geometry('200x480')
+    tonwin.title("كتب الخامس التطبيقي")
     tonwin.configure(background='#151D3B')
     tonwin.resizable(False, False)
     mlab10 = Label(tonwin, text='كتب الخامس التطبيقي', bg='#151D3B',  fg='white', font=(
@@ -1101,6 +1120,7 @@ def tonwin():  # التطبيقي
 def ttwwin():  # الادبي
     ttwwin = Tk()
     ttwwin.geometry('200x480')
+    ttwwin.title("كتب الخامس الادبي")
     ttwwin.configure(background='#151D3B')
     ttwwin.resizable(False, False)
 
@@ -1145,6 +1165,7 @@ def twthwin():  # الاحيائي
 
     twthwin = Tk()
     twthwin.geometry('200x440')
+    twthwin.title("كتب السادس الاحيائي ")
     twthwin.configure(background='#151D3B')
     twthwin.resizable(False, False)
 
@@ -1185,6 +1206,7 @@ def twfowin():  # التطبيقي
 
     twfowin = Tk()
     twfowin.geometry('200x440')
+    twfowin.title("كتب السادس التطبيقي ")
     twfowin.configure(background='#151D3B')
     twfowin.resizable(False, False)
 
@@ -1224,6 +1246,7 @@ def twfiwin():  # الادبي
 
     twfiwin = Tk()
     twfiwin.geometry('200x440')
+    twfiwin.title("كتب السادس الادبي ")
     twfiwin.configure(background='#151D3B')
     twfiwin.resizable(False, False)
 
@@ -1265,6 +1288,7 @@ def twfiwin():  # الادبي
 def mtmwin():
     mtmwin = Tk()
     mtmwin.geometry("430x480")
+    mtmwin.title("تحميل كتب مدارس المتميزين")
     mtmwin.configure(background='#151D3B')
     mtmwin.resizable(False, False)
 

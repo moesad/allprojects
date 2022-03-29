@@ -1297,7 +1297,7 @@ def mtmwin():
     # mtmwin.resizable(False, False)
 
     mlm = Label(mtmwin, text='تحميل كتب مدارس المتميزين',  bg='#151D3B',  fg='white', font=(
-        "Tajawl", 13, 'bold')).place(x=110, y=10)
+        "Tajawl", 13, 'bold')).place(x=185, y=10)
 
     lab1 = Label(mtmwin, text='الاول المتوسط', bg='#151D3B',  fg='white', font=(
         "Tajawl", 13, 'bold')).place(x=450, y=50)
@@ -1320,16 +1320,16 @@ def mtmwin():
         "Tajawl", 13, 'bold')).place(x=300, y=50)
 
     bt12 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://static.newton.iq/public/books/files/170.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=website%2F20220327%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220327T154959Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=8d00dbf97b4964d4b040a78aa88d83962897eeb0b486905ddeceafc96832cfba'), bg='#F0A500', text="    الرياضيات     ").place(x=300, y=90)
+        'https://drive.google.com/file/d/1RnkGI0G_g6KBxg_mz9qAnkc7EaZbxA-1/view'), bg='#F0A500', text="    الرياضيات     ").place(x=300, y=90)
 
     bt21 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://static.newton.iq/public/books/files/171.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=website%2F20220327%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220327T154959Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=3c4536f43ee2b4c5e06351592d48cab9a19dabcd4920db0cd301dc8d3b06f191'), bg='#F0A500', text="      الكيمياء       ").place(x=300, y=130)
+        'https://drive.google.com/file/d/1gj0UkCY-sdd2xthUfxI0Sc8qD9VvOJRe/view'), bg='#F0A500', text="      الكيمياء       ").place(x=300, y=130)
 
     bt232 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://static.newton.iq/public/books/files/172.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=website%2F20220327%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220327T155001Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=39f68053543844837ffa7cef0c0d369e7072de6f51c683ddf7125d9136c9584d'), bg='#F0A500', text="      الفيزياء       ").place(x=300, y=170)
+        'https://drive.google.com/u/6/uc?id=1RVjFH6K6j-Go0slYHQYQRd1CcD1CQWCi&export=download'), bg='#F0A500', text="      الفيزياء       ").place(x=300, y=170)
 
     bt221 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://static.newton.iq/public/books/files/173.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=website%2F20220327%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220327T154939Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=2c8147e54552a8682ad828ea09714121bde02299dcd353bc0ba02d170a54f9f9'), bg='#F0A500', text="        الاحياء      ").place(x=300, y=210)
+        'https://drive.google.com/u/6/uc?id=1Ra3lInwcqmm4LyUA8sdT66jwdooBXk3y&export=download'), bg='#F0A500', text="        الاحياء      ").place(x=300, y=210)
 
     # ============================ الثالث المتوسط ===============================
 
@@ -1383,16 +1383,33 @@ def mtmwin():
 
     # =====================================================================
     lab5 = Label(mtmwin, text='الخامس تطبيقي', bg='#151D3B',  fg='white', font=(
-        "Tajawl", 13, 'bold')).place(x=160, y=280)
+        "Tajawl", 13, 'bold')).place(x=300, y=280)
 
     bt12 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://manahj.edu.iq/upload/upfile/ar/1056.pdf'), bg='#F0A500', text="    الرياضيات     ").place(x=160, y=320)
+        'https://manahj.edu.iq/upload/upfile/ar/1056.pdf'), bg='#F0A500', text="    الرياضيات     ").place(x=300, y=330)
 
     bt21 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://manahj.edu.iq/upload/upfile/ar/1057.pdf'), bg='#F0A500', text="      الكيمياء       ").place(x=160, y=360)
+        'https://manahj.edu.iq/upload/upfile/ar/1057.pdf'), bg='#F0A500', text="      الكيمياء       ").place(x=300, y=380)
 
     bt232 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://manahj.edu.iq/upload/upfile/ar/1051.pdf'), bg='#F0A500', text="      الفيزياء       ").place(x=160, y=400)
+        'https://manahj.edu.iq/upload/upfile/ar/1051.pdf'), bg='#F0A500', text="      الفيزياء       ").place(x=300, y=430)
+
+# =======================================================================================
+
+    lab22 = Label(mtmwin, text='السادس العلمي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=100, y=280)
+
+    bt124 = Button(mtmwin, command=lambda: webbrowser.open(
+        'https://drive.google.com/u/6/uc?id=1RwtTqHOCCwaEBHVr8OHd80BiHpXXi975&export=download'), bg='#F0A500', text="                           الرياضيات                           ").place(x=30, y=320)
+
+    bt216 = Button(mtmwin, command=lambda: webbrowser.open(
+        'https://drive.google.com/u/6/uc?id=1afgeO4L5JRUeJoGii-tw7IRPa7qcs-r4&export=download'), bg='#F0A500', text="                             الكيمياء                             ").place(x=30, y=360)
+
+    bt2328 = Button(mtmwin, command=lambda: webbrowser.open(
+        'https://drive.google.com/u/6/uc?id=17vp8_uUo9nA5-nuTNgHxBP6vyxi6dzEC&export=download'), bg='#F0A500', text="                             الفيزياء                             ").place(x=30, y=400)
+
+    bt2201 = Button(mtmwin, command=lambda: webbrowser.open(
+        'https://drive.google.com/u/6/uc?id=1F8VGYfP7TT1sOMCUpQwL0SDqbiKrXUUY&export=download'), bg='#F0A500', text="                               الاحياء                            ").place(x=30, y=440)
 
 
 # ****************************************** الشاشه الاولى *********************************

@@ -1294,7 +1294,7 @@ def mtmwin():
     mtmwin.geometry("570x480")
     mtmwin.title("تحميل كتب مدارس المتميزين")
     mtmwin.configure(background='#151D3B')
-    # mtmwin.resizable(False, False)
+    mtmwin.resizable(False, False)
 
     mlm = Label(mtmwin, text='تحميل كتب مدارس المتميزين',  bg='#151D3B',  fg='white', font=(
         "Tajawl", 13, 'bold')).place(x=185, y=10)
@@ -1383,33 +1383,47 @@ def mtmwin():
 
     # =====================================================================
     lab5 = Label(mtmwin, text='الخامس تطبيقي', bg='#151D3B',  fg='white', font=(
-        "Tajawl", 13, 'bold')).place(x=300, y=280)
+        "Tajawl", 13, 'bold')).place(x=160, y=280)
 
     bt12 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://manahj.edu.iq/upload/upfile/ar/1056.pdf'), bg='#F0A500', text="    الرياضيات     ").place(x=300, y=330)
+        'https://manahj.edu.iq/upload/upfile/ar/1056.pdf'), bg='#F0A500', text="    الرياضيات     ").place(x=160, y=320)
 
     bt21 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://manahj.edu.iq/upload/upfile/ar/1057.pdf'), bg='#F0A500', text="      الكيمياء       ").place(x=300, y=380)
+        'https://manahj.edu.iq/upload/upfile/ar/1057.pdf'), bg='#F0A500', text="      الكيمياء       ").place(x=160, y=360)
 
     bt232 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://manahj.edu.iq/upload/upfile/ar/1051.pdf'), bg='#F0A500', text="      الفيزياء       ").place(x=300, y=430)
+        'https://manahj.edu.iq/upload/upfile/ar/1051.pdf'), bg='#F0A500', text="      الفيزياء       ").place(x=160, y=400)
 
 # =======================================================================================
 
-    lab22 = Label(mtmwin, text='السادس العلمي', bg='#151D3B',  fg='white', font=(
-        "Tajawl", 13, 'bold')).place(x=100, y=280)
+    lab22 = Label(mtmwin, text='السادس الاحيائي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=300, y=280)
 
     bt124 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://drive.google.com/u/6/uc?id=1RwtTqHOCCwaEBHVr8OHd80BiHpXXi975&export=download'), bg='#F0A500', text="                           الرياضيات                           ").place(x=30, y=320)
+        'https://drive.google.com/u/6/uc?id=1RwtTqHOCCwaEBHVr8OHd80BiHpXXi975&export=download'), bg='#F0A500', text="    الرياضيات     ").place(x=300, y=320)
 
     bt216 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://drive.google.com/u/6/uc?id=1afgeO4L5JRUeJoGii-tw7IRPa7qcs-r4&export=download'), bg='#F0A500', text="                             الكيمياء                             ").place(x=30, y=360)
+        'https://drive.google.com/u/6/uc?id=1afgeO4L5JRUeJoGii-tw7IRPa7qcs-r4&export=download'), bg='#F0A500', text="      الكيمياء       ").place(x=300, y=360)
 
     bt2328 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://drive.google.com/u/6/uc?id=17vp8_uUo9nA5-nuTNgHxBP6vyxi6dzEC&export=download'), bg='#F0A500', text="                             الفيزياء                             ").place(x=30, y=400)
+        'https://drive.google.com/u/6/uc?id=17vp8_uUo9nA5-nuTNgHxBP6vyxi6dzEC&export=download'), bg='#F0A500', text="      الفيزياء       ").place(x=300, y=400)
 
     bt2201 = Button(mtmwin, command=lambda: webbrowser.open(
-        'https://drive.google.com/u/6/uc?id=1F8VGYfP7TT1sOMCUpQwL0SDqbiKrXUUY&export=download'), bg='#F0A500', text="                               الاحياء                            ").place(x=30, y=440)
+        'https://drive.google.com/u/6/uc?id=1F8VGYfP7TT1sOMCUpQwL0SDqbiKrXUUY&export=download'), bg='#F0A500', text="        الاحياء      ").place(x=300, y=440)
+
+# =======================================================================================
+
+    lab221 = Label(mtmwin, text='السادس التطبيقي', bg='#151D3B',  fg='white', font=(
+        "Tajawl", 13, 'bold')).place(x=30, y=280)
+
+    bt1241 = Button(mtmwin, command=lambda: webbrowser.open(
+        'https://drive.google.com/u/6/uc?id=1RwtTqHOCCwaEBHVr8OHd80BiHpXXi975&export=download'), bg='#F0A500', text="    الرياضيات     ").place(x=30, y=320)
+
+    bt2161 = Button(mtmwin, command=lambda: webbrowser.open(
+        'https://drive.google.com/u/6/uc?id=1afgeO4L5JRUeJoGii-tw7IRPa7qcs-r4&export=download'), bg='#F0A500', text="      الكيمياء       ").place(x=30, y=360)
+
+    bt23281 = Button(mtmwin, command=lambda: webbrowser.open(
+        'https://drive.google.com/u/6/uc?id=17vp8_uUo9nA5-nuTNgHxBP6vyxi6dzEC&export=download'), bg='#F0A500', text="      الفيزياء       ").place(x=30, y=400)
 
 
 # ****************************************** الشاشه الاولى *********************************

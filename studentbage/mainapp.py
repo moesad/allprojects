@@ -1474,5 +1474,6 @@ sg = Label(firstwin, bg='#151D3B',  fg='white', font=(
 gg = Button(firstwin, command=lambda: webbrowser.open('https://loader.to/en85/1080p-video-downloader.html'), text="                   اضغط هنا لتحميل الدروس الالكترونية               ", fg='white', bg='#ab1111').place(
     x=40, y=430)
 
+# ==========================================================================================
 
 firstwin.mainloop()
